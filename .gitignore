@@ -186,3 +186,4 @@ faiss.index
 demo_data/test_api_config.yaml
 assets/response.json
 api_config.yaml
+merged_training_data.json
