@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="https://www.librai.tech">
-      <img alt="LibrAI Logo" src="./assets/logo.plo" alt="LibrAI Logo" width="50%" height="auto">
+      <img alt="LibrAI Logo" src="./assets/XH.jpeg" alt="LibrAI Logo" width="30%" height="auto">
     </a>
   <br />
 </div>
@@ -132,26 +132,7 @@ python -m factcheck --modal video --input demo_data/video.m4v
 
 </div> -->
 
-## 为 Loki 项目做贡献
 
-欢迎并感谢您对 Loki 项目的兴趣！我们欢迎社区的贡献和反馈。要开始，请参阅我们的[贡献指南](https://github.com/Libr-AI/OpenFactVerification/tree/main/docs/CONTRIBUTING.md)。
-
-### 致谢
-- 特别感谢所有为本项目做出贡献的贡献者。
-
-<!---
-在此处添加 slack 频道
--->
-
-### 保持联系和了解情况
-
-不要错过最新的更新、功能发布和社区见解！我们邀请您订阅我们的新闻通讯，成为我们不断壮大的社区的一员。
-
-💌 立即在[我们的网站](https://www.librai.tech/)订阅！
-
-## Star 历史
-
-> [![Star History Chart](https://api.star-history.com/svg?repos=Libr-AI/OpenFactVerification&type=Date)](https://star-history.com/#Libr-AI/OpenFactVerification&Date)
 
 ## 引用
 ```
