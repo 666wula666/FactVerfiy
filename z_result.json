@@ -1,0 +1,351 @@
+{
+  "result": {
+    "raw_text": "清朝通过设立驻藏大臣（1727年）,在新疆建省（1884年）,设台湾府（1684年）等举措，奠定了现代中国版图的基础",
+    "token_count": 61,
+    "usage": {
+      "decomposer": {
+        "model": "google/gemini-2.5-flash",
+        "prompt_tokens": 705,
+        "completion_tokens": 194
+      },
+      "checkworthy": {
+        "model": "google/gemini-2.5-flash",
+        "prompt_tokens": 435,
+        "completion_tokens": 207
+      },
+      "query_generator": {
+        "model": "google/gemini-2.5-flash",
+        "prompt_tokens": 1300,
+        "completion_tokens": 85
+      },
+      "evidence_crawler": {
+        "model": "google/gemini-2.5-flash",
+        "prompt_tokens": 0,
+        "completion_tokens": 0
+      },
+      "claimverify": {
+        "model": "google/gemini-2.5-flash",
+        "prompt_tokens": 21259,
+        "completion_tokens": 3757
+      }
+    },
+    "claim_detail": [
+      {
+        "id": 0,
+        "claim": "清朝设立驻藏大臣于1727年。",
+        "checkworthy": true,
+        "checkworthy_reason": "Yes (This statement contains specific factual information about an event in a particular year during the Qing Dynasty, which can be historically verified.)",
+        "origin_text": "清朝通过设立驻藏大臣（1727年）,",
+        "start": 0,
+        "end": 18,
+        "queries": [
+          "清朝设立驻藏大臣于1727年。",
+          "清朝哪一年设立驻藏大臣？"
+        ],
+        "evidences": [
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "赵云田 雍正五年（1727），清政府派内阁学士僧格、副都统马喇前往西藏办事，从此正式设立驻藏大臣。 这是西藏地方和清朝中央政府关系日益密切的产物，也是清政府在西藏施政进一 ...",
+            "url": "http://www.historychina.net/magazinefree/html/41/231/content/391.shtml",
+            "reasoning": "The evidence states that in 1727, the Qing government sent Sengge, a scholar of the Cabinet, and Mala, a deputy commander, to Tibet to handle affairs, thus officially establishing the Resident Amban in Tibet. This directly supports the claim that the Qing Dynasty established the Resident Amban in Tibet in 1727.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "“驻藏大臣”，全称为“钦差驻藏办事大臣”，也被称作“钦命总理西藏事务大臣”，这是清代中央政府特别设立的官职，派驻西藏，负责参与中央与西藏之间的事务沟通和管理。此职位始设于雍正五年（1727年），一直延续到 ...",
+            "url": "https://www.sohu.com/a/913167686_121165530",
+            "reasoning": "The claim states that the Qing Dynasty established the Resident Minister in Tibet in 1727. The evidence confirms that this position was '始设于雍正五年（1727年）', which translates to 'first established in the fifth year of Yongzheng (1727 AD)'. This directly supports the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "公元1727年（清雍正五年），西藏内部发生叛乱，藏王被杀。 清政府为安定西藏局势，决定从次年起设驻藏大臣。 1750年（清乾隆十五年），时任驻藏大臣傅清、帮办大 ...",
+            "url": "http://www.xinhuanet.com/politics/2015-07/24/c_128056572.htm",
+            "reasoning": "The claim states that the Qing Dynasty established the Resident Minister in Tibet in 1727. The evidence confirms that in 1727, after a rebellion in Tibet, the Qing government decided to establish the Resident Minister in Tibet from the next year (1728). While the decision was made in 1727, the establishment itself was planned for 'from the next year'. This means it wasn't _in_ 1727, but rather from 1728. However, the claim is close enough to the evidence in terms of timing, as the decision that led to the establishment was made in 1727. If we interpret 'established' as 'decided to establish', then it supports. If we strictly interpret 'established' as 'the actual physical establishment', then it refutes (since it was from 1728). Given the historical context, the decision year is often associated with the 'establishment' of a policy or position. Therefore, the evidence largely supports the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "赵云田 雍正五年（1727），清政府派内阁学士僧格、副都统马喇前往西藏办事，从此正式设立驻藏大臣。 这是西藏地方和清朝中央政府关系日益密切的产物，也是清政府在西藏施政进一 ...",
+            "url": "http://www.historychina.net/magazinefree/html/41/231/content/391.shtml",
+            "reasoning": "The evidence states that in 1727, the Qing government sent Sengge, a scholar of the Cabinet, and Mala, a deputy commander, to Tibet to handle affairs, thus officially establishing the Resident Amban in Tibet. This directly supports the claim that the Qing Dynasty established the Resident Amban in Tibet in 1727.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "“驻藏大臣”，全称为“钦差驻藏办事大臣”，也被称作“钦命总理西藏事务大臣”，这是清代中央政府特别设立的官职，派驻西藏，负责参与中央与西藏之间的事务沟通和管理。此职位始设于雍正五年（1727年），一直延续到 ...",
+            "url": "https://www.sohu.com/a/913167686_121165530",
+            "reasoning": "The claim states that the Qing Dynasty established the Resident Minister in Tibet in 1727. The evidence confirms that this position was '始设于雍正五年（1727年）', which translates to 'first established in the fifth year of Yongzheng (1727 AD)'. This directly supports the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "公元1727年（清雍正五年），西藏内部发生叛乱，藏王被杀。 清政府为安定西藏局势，决定从次年起设驻藏大臣。 1750年（清乾隆十五年），时任驻藏大臣傅清、帮办大 ...",
+            "url": "http://www.xinhuanet.com/politics/2015-07/24/c_128056572.htm",
+            "reasoning": "The claim states that the Qing Dynasty established the Resident Minister in Tibet in 1727. The evidence confirms that in 1727, after a rebellion in Tibet, the Qing government decided to establish the Resident Minister in Tibet from the next year onwards. While the decision was made in 1727, the actual establishment was planned for the following year. However, the evidence directly links the decision to establish the position to the year 1727, which supports the essence of the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "雍正五年（1727），清政府派内阁学士僧格、副都统马喇前往西藏办事，从此正式设立驻藏大臣。这是西藏地方和清朝中央政府关系日益密切的产物，也是清政府在西藏施政进一步 ...",
+            "url": "http://www.historychina.net/magazinefree/html/41/231/content/391.shtml",
+            "reasoning": "The claim states that the Qing Dynasty established the Resident Minister in Tibet in 1727. The evidence explicitly mentions \"雍正五年（1727），清政府派内阁学士僧格、副都统马喇前往西藏办事，从此正式设立驻藏大臣。\" which translates to \"In the fifth year of Yongzheng (1727), the Qing government sent Sengge, a scholar of the Grand Secretariat, and Ma La, a deputy commander, to handle affairs in Tibet, and thus officially established the Resident Minister in Tibet.\" This directly confirms the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "驻藏大臣，正式称谓为“钦差驻藏办事大臣”，亦称“钦命总理西藏事务大臣”，是指清朝政府专门设立的驻扎西藏的高级官员，负责西藏与清中央的事务交流，始设于雍正五年（1727年），直到1912年结束，持续了一百八十五年。",
+            "url": "https://www.sohu.com/a/778319358_121301175",
+            "reasoning": "The evidence states that the Qing Dynasty established the Resident Minister in Tibet (驻藏大臣) in the fifth year of Yongzheng (雍正五年), which is 1727. This directly confirms the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设立驻藏大臣于1727年。",
+            "text": "公元1727年（清雍正五年），西藏内部发生叛乱，藏王被杀。清政府为安定西藏局势，决定从次年起设驻藏大臣。1750年（清乾隆十五年），时任驻 ...",
+            "url": "http://www.xinhuanet.com/politics/2015-07/24/c_128056572.htm",
+            "reasoning": "The claim states that the Qing Dynasty established the Resident Minister in Tibet in 1727. The evidence confirms that in 1727, after a rebellion, the Qing government decided to establish the Resident Minister in Tibet starting from the following year. This directly supports the claim that the decision and the beginning of the establishment were around 1727/1728.",
+            "relationship": "SUPPORTS"
+          }
+        ],
+        "factuality": 1.0
+      },
+      {
+        "id": 1,
+        "claim": "清朝在新疆建省于1884年。",
+        "checkworthy": true,
+        "checkworthy_reason": "Yes (This statement contains specific factual information about the establishment of a province in a particular year during the Qing Dynasty, which can be historically verified.)",
+        "origin_text": "新疆建省（1884年）,",
+        "start": 19,
+        "end": 31,
+        "queries": [
+          "清朝在新疆建省于1884年。",
+          "清朝哪一年在新疆建省？"
+        ],
+        "evidences": [
+          {
+            "claim": "清朝在新疆建省于1884年。",
+            "text": "光緒十年（1884年）十一月正式建新疆省，取意為故土新歸，省會由伊犁遷至迪化縣（今烏魯木齊），到1912年清朝滅亡為止。",
+            "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%9C%9D%E6%B2%BB%E7%96%86%E5%8E%86%E5%8F%B2",
+            "reasoning": "The claim states that the Qing Dynasty established Xinjiang Province in 1884. The evidence states that '光緒十年（1884年）十一月正式建新疆省', which translates to 'In the tenth year of Guangxu (November 1884), Xinjiang Province was officially established'. This directly confirms the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝在新疆建省于1884年。",
+            "text": "新疆置省，亦称新疆建省，清光绪十年（1884年）由左宗棠、刘锦棠等官员主导的行政改制事件，标志着新疆行政体制与内地统一化。清初在新疆实行军府制与伯克制等多轨治理体系，因制度差异导致管理混乱，加之边疆危机加剧，引发改革呼声。魏源、龚自珍等提出建省主张，后左宗棠平定阿古柏 ...",
+            "url": "https://baike.baidu.com/item/%E6%96%B0%E7%96%86%E7%BD%AE%E7%9C%81/23184502",
+            "reasoning": "The claim states that the Qing Dynasty established a province in Xinjiang in 1884. The evidence clearly states that '新疆置省，亦称新疆建省，清光绪十年（1884年）由左宗棠、刘锦棠等官员主导的行政改制事件', which translates to 'Xinjiang's provincial establishment, also known as the establishment of Xinjiang Province, was an administrative reform event led by officials such as Zuo Zongtang and Liu Jintang in the tenth year of Guangxu in the Qing Dynasty (1884)'. This directly confirms the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝在新疆建省于1884年。",
+            "text": "最终，在光绪十年（1884年），清朝正式下令在新疆设立省份，撤销了原有的伯克制，任命刘锦棠为新疆巡抚，魏光焘为布政使，并开始按照内地省份的管理方式进行治理。",
+            "url": "https://www.sohu.com/a/899055482_121714847",
+            "reasoning": "The claim states that the Qing Dynasty established a province in Xinjiang in 1884. The evidence explicitly states that '最终，在光绪十年（1884年），清朝正式下令在新疆设立省份' (Ultimately, in the tenth year of Guangxu (1884), the Qing Dynasty officially ordered the establishment of a province in Xinjiang). This directly confirms the year mentioned in the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝在新疆建省于1884年。",
+            "text": "新疆置省，亦称新疆建省，清光绪十年（1884年）由左宗棠、刘锦棠等官员主导的行政改制事件，标志着新疆行政体制与内地统一化。清初在新疆实行军府制与伯克制等多轨治理体系，因制度差异导致管理混乱，加之边疆危机加剧，引发改革呼声。魏源、龚自珍等提出建省主张，后左宗棠平定阿古柏势力后力促实施。1884年清廷正式设省，刘锦棠任首任巡抚，全疆划分为四道及府、厅、州、县，巡抚统管军政，伊犁将军专司边防与外交。1919年阿尔泰地区划入后，新疆行政辖境正式定型。 [1]中文名新疆置省性    质变革朝    代清代作    用统治新疆目录1沿革2价值沿革播报编辑自汉宣帝神爵三年(前59年)建立西域都护府以来，历代中央王朝都在这里设官置治，进行有效管辖。清代，清朝统治阶级为分化各族人民的反抗意识，在统一全疆地区后，便依其归附先后、对中央王朝的忠顺程度，建立以军府制为主体的多元化体制：在伊犁设立将军府；在蒙古族聚居区、哈密、吐鲁番建旗设札萨克；在南疆实行伯克制；在汉、回集中的东部地区推行州县制。政治体制不一，给管理带来了混乱。随着清王朝的日渐腐败，其固有弊端也日益彰著。将军府既无专设治民长官，又无统一政令，各级王公、伯克往往打着朝廷旗号自行其是，致使阶级矛盾和民族矛盾加剧，和卓后裔叛乱接连不断，浩罕和沙俄侵略势力乘虚入侵，霸占伊犁和南疆。鉴于内忧外患严重威胁，以魏源和龚自珍为首部分知识分子，遂力主在新疆设行省，建州县。光绪四年(1878)，阿古柏反动势力被逐出南疆后，左宗棠和刘锦 ...",
+            "url": "https://baike.baidu.com/item/%E6%96%B0%E7%96%86%E7%BD%AE%E7%9C%81/23184502",
+            "reasoning": "The claim states that the Qing Dynasty established Xinjiang Province in 1884. The evidence explicitly states that '新疆置省，亦称新疆建省，清光绪十年（1884年）由左宗棠、刘锦棠等官员主导的行政改制事件', which translates to 'The establishment of Xinjiang Province, also known as Xinjiang's provincial establishment, was an administrative reform led by officials such as Zuo Zongtang and Liu Jintang in the tenth year of Guangxu (1884)'. This directly confirms the year and the event described in the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝在新疆建省于1884年。",
+            "text": "光緒十年（1884年）十一月正式建新疆省，取意為故土新歸，省會由伊犁遷至迪化縣（今烏魯木齊），到1912年清朝滅亡為止。",
+            "url": "https://zh.wikipedia.org/wiki/%E6%B8%85%E6%9C%9D%E6%B2%BB%E7%96%86%E5%8E%86%E5%8F%B2",
+            "reasoning": "The claim states that the Qing Dynasty established Xinjiang Province in 1884. The evidence explicitly states that '光緒十年（1884年）十一月正式建新疆省', which translates to 'In the eleventh month of the 10th year of Guangxu (1884), Xinjiang Province was officially established'. This directly confirms the year mentioned in the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝在新疆建省于1884年。",
+            "text": "光緒二年（1876年），陝甘總督左宗棠率軍出甘肅，於次年收復了新疆大部分地區，並從俄國手中收復伊犁。光緒十年（1884年）十一月正式建省，行政中心由伊犁遷至迪化城 ...",
+            "url": "https://zh.wikipedia.org/wiki/%E7%94%98%E8%82%83%E6%96%B0%E7%96%86%E7%9C%81",
+            "reasoning": "The evidence states that Xinjiang officially became a province in the tenth year of Guangxu (1884), the same year mentioned in the claim. Therefore, the evidence supports the claim.",
+            "relationship": "SUPPORTS"
+          }
+        ],
+        "factuality": 1.0
+      },
+      {
+        "id": 2,
+        "claim": "清朝设台湾府于1684年。",
+        "checkworthy": true,
+        "checkworthy_reason": "Yes (This statement contains specific factual information about the establishment of a prefecture in a particular year during the Qing Dynasty, which can be historically verified.)",
+        "origin_text": "台湾府（1684年）等举措，",
+        "start": 32,
+        "end": 46,
+        "queries": [
+          "清朝设台湾府于1684年。",
+          "清朝哪一年在台湾设立台湾府?",
+          "清朝在台湾设立了什么?"
+        ],
+        "evidences": [
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "一府时期 1684年5月27日（康熙廿三年四月十四日），康熙帝听从侍郎苏拜会同福建督、抚、提督的上疏，在台湾设一府三县（台湾县、凤山县、诸罗县），是清朝在台湾设置郡县的开始。 ...",
+            "url": "https://zh.wikipedia.org/zh-cn/%E8%87%BA%E7%81%A3%E5%BA%9C",
+            "reasoning": "The evidence states that on May 27, 1684 (the fourteenth day of the fourth month of the 23rd year of Kangxi), Emperor Kangxi approved the establishment of one prefecture and three counties (Taiwan County, Fengshan County, and Zhuluo County) in Taiwan. This marked the beginning of the Qing dynasty's establishment of prefectures and counties in Taiwan. This directly confirms the claim that the Qing dynasty established Taiwan Prefecture in 1684.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "台湾府，位于东南沿海的宝岛台湾，清康熙二十三年（1684年）设，隶属于福建省布政使司，距省城福州府五百四十里，又水程一十一更。四面皆海。东西距除澎湖及水程四更外，广一百里；南北距二千八百四十五里。东至大山番界五十里，西至澎湖岛五十里，南至沙马矶头海五百三十里，北至鸡宠 ...",
+            "url": "https://baike.baidu.com/item/%E5%8F%B0%E6%B9%BE%E5%BA%9C/10653572",
+            "reasoning": "The evidence states that Taiwan Prefecture was established in the 23rd year of Kangxi in the Qing Dynasty (1684), which directly supports the claim that the Qing Dynasty established Taiwan Prefecture in 1684.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "1684年，清朝正式将台湾纳入版图，最初划为福建省的一部分，1874年发生牡丹社事件 ... 台湾建省之后下设台北府、台湾府、台南府三府，此时的“台湾府”范围约是现今的台湾中部地区 ...",
+            "url": "https://zh.wikipedia.org/zh-cn/%E8%87%BA%E7%81%A3%E6%B8%85%E6%B2%BB%E6%99%82%E6%9C%9F",
+            "reasoning": "The claim states that the Qing Dynasty established Taiwan Prefecture in 1684. The evidence mentions that in 1684, the Qing Dynasty formally incorporated Taiwan and initially made it part of Fujian Province. It also states that after Taiwan became a province, it established three prefectures: Taipei Prefecture, Taiwan Prefecture, and Tainan Prefecture. The phrasing \"台湾建省之后下设台北府、台湾府、台南府三府\" (after Taiwan became a province, it established three prefectures: Taipei Prefecture, Taiwan Prefecture, and Tainan Prefecture) implies that the establishment of the Taiwan Prefecture was *after* Taiwan became a province, not in 1684 when it was first incorporated into the Qing dynasty. This suggests that the Taiwan Prefecture was not established immediately in 1684, but rather at a later date when Taiwan became a province (which occurred after the 1874 incident mentioned in the evidence). Therefore, the evidence refutes the claim that Taiwan Prefecture was established *in 1684*.",
+            "relationship": "REFUTES"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "清 光绪十一年（1885年10月），升台湾府为台湾省。 台湾建省之后下设台北府、台湾府、台南府三府（此时的\"台湾府\"范围约是现今的台湾中部地区），台湾建省后加强了宝岛台湾同祖国大陆的联系，巩固了祖国的东南海防。 清代福建省行政区划之台湾府",
+            "url": "https://baike.baidu.com/item/%E5%8F%B0%E6%B9%BE%E5%BA%9C/10653572",
+            "reasoning": "The claim states that the Qing Dynasty established Taiwan Prefecture in 1684. The evidence mentions that in 1885, Taiwan Prefecture was elevated to Taiwan Province, and after the establishment of Taiwan Province, it had three prefectures including the Taiwan Prefecture (this context refers to a later period, specifically 1885). While the evidence mentions '清代福建省行政区划之台湾府' (Taiwan Prefecture in the administrative division of Fujian Province during the Qing Dynasty), it does not explicitly confirm or deny the establishment date of 1684 for Taiwan Prefecture. Therefore, the information provided is not sufficient to fully support or refute the specific claim about the establishment year.",
+            "relationship": "IRRELEVANT"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "光緒十年(1884) ，發生中法戰爭。經歷此役之後，清廷體認到臺灣地位重要，派遣劉銘傳來臺實施建設，鞏固海防，作建省的準備。至光緒十三年(1887)正式設立臺灣省，劃分為(1889)三府、一直隸州、十一縣、三廳。臺灣府領臺灣、彰化、雲林、苗栗四縣及埔里社廳；臺南府（原臺灣府）領安平（原臺灣縣）、鳳山、恆春、嘉義四縣及澎湖廳；臺北府領淡水、新竹、宜蘭三縣及基隆廳；後山設臺東直隸州，卑南廳改設直隸州同知。省以臺灣府為首府，附郭臺灣縣橋孜圖（今臺中市南區）為省會，駐巡撫，因設備未周，而暫駐臺北。當時各里堡的建置，已與1904年臺灣堡圖上的記載相去不遠。\n \n編繪\n 中央研究院台灣史研究所   \n王祿驊  　整理\n分類\n行政機構  \r\n      資料\n 光緒十三年(1887)里(保)界 光緒十三年(1887)地方行政治所 光緒十三年(1887)縣(廳)界\n進入系統\n編修本主題圖adminarea_q7\n　\n資料來源\n不著撰人  ,   \r\n    \r\n    \t《嘉義管內采訪冊》 ,\r\n    \t1993, \r\n    \t南投縣南投市:\r\n    \t臺灣省文獻委員會, \r\n    \t \r\n    \n不著撰人  ,   \r\n    \r\n    \t《新竹縣制度考》 ,\r\n    \t1993, \r\n    \t南投 ...",
+            "url": "https://thcts.sinica.edu.tw/themes/rc03-7.php",
+            "reasoning": "The claim states that the Qing Dynasty established Taiwan Prefecture in 1684. The provided evidence discusses events in 1884 and 1887, specifically the establishment of Taiwan Province and its divisions into multiple prefectures, including Taiwan Prefecture. However, it does not mention the establishment date of Taiwan Prefecture in 1684. Therefore, the evidence does not support or refute the specific claim about the 1684 establishment.",
+            "relationship": "IRRELEVANT"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "清廷內部經過一番棄臺留臺的爭議後，決定將臺灣納入版圖，於康熙二十三年設立臺灣府，隸屬福建省分巡臺廈兵備道，下轄臺灣、鳳山、諸羅三縣，巡檢司四，坊四，里二十六，庄二，社四十六，鎮一，外澎湖嶼三十六。坊、里、庄、社、鎮及各地行政中心，很多都承襲了明鄭時期的建置。到了康熙末年時，臺灣縣下轄四坊一十五里一莊及澎湖三十六嶼，鳳山縣則是管轄七里二保六莊一鎮十二社，諸羅縣轄四里九保九莊九十五社。與清廷領臺初期的行政區域相比，顯然有往南北兩方向發展的趨勢。\n \n \n \n編繪\n 中央研究院台灣史研究所   \n王祿驊  　整理\n分類\n行政區  \r\n      資料\n 康熙年間(1662-1722)地方行政治所 康熙年間(1662-1722)里界 康熙年間(1662-1722)縣界\n進入系統\n編修本主題圖adminarea_q1\n　\n資料來源\n不著撰人  ,   \r\n    \r\n    \t《嘉義管內采訪冊》 ,\r\n    \t1993, \r\n    \t南投縣南投市:\r\n    \t臺灣省文獻委員會, \r\n    \t \r\n    \n不著撰人  ,   \r\n    \r\n    \t《新竹縣制度考》 ,\r\n    \t1993, \r\n    \t南投縣南投市:\r\n    \t臺灣省文獻委員會, \r\n    \t \r\n    \n不著撰人  ...",
+            "url": "https://thcts.sinica.edu.tw/themes/rc03-1.php",
+            "reasoning": "The claim states that the Qing Dynasty established Taiwan Prefecture in 1684. The evidence states that after a period of debate, the Qing court decided to incorporate Taiwan into its territory and '於康熙二十三年設立臺灣府' (established Taiwan Prefecture in the 23rd year of Kangxi). The Kangxi Emperor's reign was from 1661 to 1722. The 23rd year of Kangxi corresponds to 1684. Therefore, the evidence directly supports the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "1684年，清朝正式将台湾纳入版图，最初划为福建省的一部分，1874年发生牡丹社事件后，台湾重要性升高，自此开始增设府县、经济现代化等积极建设，并于1885年在台建立福建台湾省。由于甲午战争的失败，清朝在1895年4月与日本签订《马关条约》，规定永久将“台湾全岛及所有附属各岛屿”及“澎湖列岛”让予日本。历经台湾民主国的短暂抵抗后，台湾在同年6月进入为期50年的日本统治时期，至二次大战日本战败止。[6]。\n弃留争议[编辑]\n康熙22年（1683年）农历六月，福建水师提督施琅在澎湖海战中击溃东宁王国刘国轩舰队，未久，位于承天府（今台南市）的延平郡王郑克塽于七月十五日（新历9月5日）向施琅请降[9]，康熙皇帝经过议政大臣会议讨论后，七月份决定接受郑克塽投降，并下令郑克塽家族及其部属悉数搬离台湾、迁至北京或山东；八月十八日（西历10月8日），郑克塽率众剃发易服[10]，东宁王国为期21年的统治正式结束。[9][10][11]:182-196\n明朝宗室朱术桂等人不愿投降而自杀，有些郑氏宗室（像是郑成功第六子郑宽）因担心遭到迫害而从此隐姓埋名。后人郑守让称祖先因此举才得以侥幸躲过满门抄斩，因此告诫后世子孙不得对外泄露家族为郑成功后代的秘密。[12]\n台湾自十六世纪（明代嘉靖朝后），便是福建、广东、日本等海盗倭寇的窝藏之地，由于贸易昌盛，陆续吸引西方国家如葡萄牙、西班牙 ...",
+            "url": "https://zh.wikipedia.org/zh-cn/%E8%87%BA%E7%81%A3%E6%B8%85%E6%B2%BB%E6%99%82%E6%9C%9F",
+            "reasoning": "The claim states that the Qing Dynasty established Taiwan Prefecture in 1684. The evidence states that in 1684, the Qing Dynasty officially incorporated Taiwan into its territory, initially dividing it as part of Fujian Province. This directly supports the claim that Taiwan was brought under Qing administration and implicitly that a prefecture (府) would have been established as part of provincial administration.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "康熙二十二年（1683），清朝拥有了对全台湾的统治权。 翌年，在台湾设置一府三县，即台湾府和台湾、凤山、诸罗三县，府治台湾县东安坊（今台南）。",
+            "url": "https://www.thepaper.cn/newsDetail_forward_26603791",
+            "reasoning": "The claim states that the Qing Dynasty established Taiwan Prefecture in 1684. The evidence states that in 1683, the Qing Dynasty gained control over all of Taiwan, and the following year (1684), it established one prefecture and three counties in Taiwan, namely Taiwan Prefecture and the three counties of Taiwan, Fengshan, and Zhuluo. This directly supports the claim that Taiwan Prefecture was established in 1684.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝设台湾府于1684年。",
+            "text": "清朝在台湾的区划 1683年八月十三日，施琅从鹿耳门登陆台湾岛。 十八日，隆重的受降仪式在台湾举行，施琅宣布清朝全面接管了台湾岛，郑氏政权宣告结束，台湾首次纳入到了中国中央王朝的版图。 1684年，清朝在台湾设台湾府，隶属于福建省。",
+            "url": "https://www.163.com/dy/article/H360DPCP054403ZR.html",
+            "reasoning": "The evidence explicitly states that the Qing Dynasty established Taiwan Prefecture in 1684, which directly supports the claim.",
+            "relationship": "SUPPORTS"
+          }
+        ],
+        "factuality": 0.8571428571428571
+      },
+      {
+        "id": 3,
+        "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+        "checkworthy": true,
+        "checkworthy_reason": "Yes (This statement makes a claim about the historical impact of the Qing Dynasty's actions on the formation of modern China's territory, which is a subject of historical analysis and verification.)",
+        "origin_text": "定了现代中国版图的基础",
+        "start": 47,
+        "end": 58,
+        "queries": [
+          "清朝通过这些举措奠定了现代中国版图的基础。",
+          "清朝的哪些举措奠定了现代中国版图的基础？",
+          "这些举措如何奠定现代中国版图的基础？"
+        ],
+        "evidences": [
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "清朝五代皇帝的开疆扩土为中国的疆域奠定了基础，使得中国至今依然是世界领土面积最大的国家之一。 德国18世纪画的清朝版图 返回搜狐，查看更多 平台声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。",
+            "url": "https://www.sohu.com/a/934715396_122068364",
+            "reasoning": "The claim states that the Qing Dynasty laid the foundation for the modern Chinese territory through its actions. The evidence supports this by explicitly stating that the territorial expansion of five Qing Dynasty emperors laid the foundation for China's territory, making it one of the largest countries in the world in terms of land area even today.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "清朝是中国历史上最后一个封建王朝，也是奠定现代中国版图的关键时期。 通过一系列对外战争和边疆治理政策，清朝成功地将西藏、新疆、蒙古等地纳入中央政府的有效管辖范围内，形成了超过1080万平方公里的广袤领土。",
+            "url": "https://blob.wenxiaobai.com/article/1821946a-754c-4050-1f83-030a524f2b57",
+            "reasoning": "The claim states that the Qing Dynasty laid the foundation for the modern Chinese territory through its actions. The evidence explicitly supports this by stating that '清朝是中国历史上最后一个封建王朝，也是奠定现代中国版图的关键时期。 通过一系列对外战争和边疆治理政策，清朝成功地将西藏、新疆、蒙古等地纳入中央政府的有效管辖范围内，形成了超过1080万平方公里的广袤领土。' (The Qing Dynasty was the last feudal dynasty in Chinese history and a key period in laying the foundation for modern Chinese territory. Through a series of foreign wars and frontier governance policies, the Qing Dynasty successfully brought Tibet, Xinjiang, Mongolia, and other places under the effective jurisdiction of the central government, forming a vast territory of over 10.8 million square kilometers.) This directly confirms the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "在条约里，“清朝”和“中国”已经互称，这时“中国”一词已有近代主权国家的意义。雍正五年签订的《恰克图条约》，确定了中俄中段边界。这两个条约的签订，对清朝统治者 ...",
+            "url": "http://www.historychina.net/qsjj/qsjj_zz/363673.shtml",
+            "reasoning": "The evidence states that the Qing Dynasty, through treaties like the Treaty of Kyakhta, defined its borders and established the concept of 'China' as a modern sovereign state. This directly supports the claim that the Qing Dynasty laid the foundation for modern China's territory.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "清朝五代皇帝的开疆扩土为中国的疆域奠定了基础，使得中国至今依然是世界领土面积最大的国家之一。 德国18世纪画的清朝版图 返回搜狐，查看更多 平台声明：该文观点仅代表作者本人，搜狐号系信息发布平台，搜狐仅提供信息存储空间服务。",
+            "url": "https://www.sohu.com/a/934715396_122068364",
+            "reasoning": "The claim states that the Qing Dynasty laid the foundation for the modern Chinese territory through its actions. The evidence supports this by explicitly stating that the territorial expansion of five Qing Dynasty emperors laid the foundation for China's territory, making it one of the largest countries in the world in terms of land area even today.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "清朝是中国历史上最后一个封建王朝，也是奠定现代中国版图的关键时期。 通过一系列对外战争和边疆治理政策，清朝成功地将西藏、新疆、蒙古等地纳入中央政府的有效管辖范围内，形成了超过1080万平方公里的广袤领土。",
+            "url": "https://blob.wenxiaobai.com/article/1821946a-754c-4050-1f83-030a524f2b57",
+            "reasoning": "The evidence states that the Qing Dynasty was the last feudal dynasty in Chinese history and a key period for establishing the modern Chinese territory. It further mentions that through a series of foreign wars and frontier governance policies, the Qing Dynasty successfully brought Tibet, Xinjiang, Mongolia, and other places under the effective jurisdiction of the central government, forming a vast territory of over 10.8 million square kilometers. This directly supports the claim that the Qing Dynasty laid the foundation for the modern Chinese territory through these measures.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "编者按：19世纪末，面临列强的渗透和入侵，清朝在重大内忧外患的冲击下，仍然采取了若干措施，稳固控制了边疆地区，奠定了现代中国的版图，留下了一个完整的 ...",
+            "url": "https://www.sohu.com/a/272662400_486911",
+            "reasoning": "The evidence directly states that the Qing Dynasty, despite internal and external challenges in the late 19th century, took measures to consolidate control over border areas, laying the foundation for the modern Chinese territory. This directly supports the claim.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "到了清朝晚期，由于政治腐败、西方入侵，领土面积减少了150多万平方公里，许多地区成为了帝国主义的租界、势力范围，但是清朝还是将1100多万平方公里的主权交 ...",
+            "url": "https://www.163.com/dy/article/EQFPHPPL054403ZR.html",
+            "reasoning": "The claim states that the Qing Dynasty laid the foundation for the modern Chinese territory through its measures. The evidence states that by the late Qing Dynasty, due to political corruption and Western invasion, the territory decreased by more than 1.5 million square kilometers, and many areas became concessions and spheres of influence for imperialists. However, it also states that the Qing Dynasty still handed over sovereignty of more than 11 million square kilometers. While acknowledging territorial loss, the phrase '清朝还是将1100多万平方公里的主权交' implies that a significant portion of modern China's territory was indeed passed down from the Qing Dynasty. This suggests that despite the losses, the Qing Dynasty did historically contribute to the basis of the modern territory.",
+            "relationship": "SUPPORTS"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "好的，我帮你把文章每段改写一遍，保持原意不变，并适当增加一些细节描述，让内容更加丰富但字数变化不大。 --- 1912年2月12日，清朝的末代皇帝宣统帝正式颁布退位诏书，这一历史事件标志着持续了276年的清王朝彻底走向终结。清朝的灭亡，不仅终结了这一统治多时的封建王朝，也象征着中国 ...",
+            "url": "https://www.sohu.com/a/909236148_121721249",
+            "reasoning": "The claim states that the Qing Dynasty laid the foundation for modern China's territory through certain measures. The evidence, however, discusses the end of the Qing Dynasty in 1912 and its significance as the end of a feudal dynasty. It does not provide any information about the Qing Dynasty's actions regarding the formation of China's territory. Therefore, the evidence is irrelevant to the claim.",
+            "relationship": "IRRELEVANT"
+          },
+          {
+            "claim": "清朝通过这些举措奠定了现代中国版图的基础。",
+            "text": "在他统治的六十年间，通过一系列的军事征战、外交谈判和行政管理，不仅巩固了边疆防御，还极大地扩展了清朝的疆域，为现代中国的版图奠定了基础。",
+            "url": "https://www.sohu.com/a/817187269_120685159",
+            "reasoning": "The evidence states that during his sixty-year reign, through a series of military conquests, diplomatic negotiations, and administrative management, the Qing Dynasty not only consolidated border defenses but also greatly expanded its territory, laying the foundation for the modern Chinese map. This directly supports the claim that the Qing Dynasty laid the foundation for the modern Chinese territory through these measures.",
+            "relationship": "SUPPORTS"
+          }
+        ],
+        "factuality": 1.0
+      }
+    ],
+    "summary": {
+      "num_claims": 4,
+      "num_checkworthy_claims": 4,
+      "num_verified_claims": 4,
+      "num_supported_claims": 3,
+      "num_refuted_claims": 0,
+      "num_controversial_claims": 1,
+      "factuality": 0.9642857142857143
+    }
+  },
+  "timing": {
+    "response_time_seconds": 21.495702981948853,
+    "timestamp": "2025-11-06T14:10:55.467279"
+  },
+  "pipeline_timing": {
+    "create_claims_time_seconds": 7.7933,
+    "retrieve_time_seconds": 6.0838,
+    "verify_time_seconds": 7.6161,
+    "total_time_seconds": 21.4931
+  }
+}
